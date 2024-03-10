@@ -8,20 +8,41 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="191dp"
-        android:layout_height="147dp"
+        android:layout_width="130dp"
+        android:layout_height="53dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.434" />
+        app:layout_constraintVertical_bias="0.429" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="253dp"
+        android:text="Hello world!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="310dp" />
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="253dp"
+        android:text="Change color!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
